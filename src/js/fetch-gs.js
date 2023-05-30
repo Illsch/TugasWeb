@@ -65,7 +65,7 @@
         xhr.onreadystatechange = function() {
             console.log(xhr.status, xhr.statusText);
             console.log(xhr.responseText);
-            var formElements = form.querySelector("gform-element");
+            var formElements = form.querySelector(".gform-element");
             if (formElements) {
               formElements.style.display = "none";
             }
