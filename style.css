@@ -474,7 +474,8 @@ label h1{
     padding-right: 20px;
 }
 .gallery-child{
-    min-width: 200px;
+    min-width: 180px;
+    max-width: 500px;
     margin: 0 auto 0 auto;
     overflow: scroll;
 }
