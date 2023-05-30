@@ -474,8 +474,9 @@ label h1{
     padding-right: 20px;
 }
 .gallery-child{
-    margin: 0 120px 0 120px;
-    overflow: hidden;
+    min-width: 200px;
+    margin: 0 auto 0 auto;
+    overflow: scroll;
 }
 img{
     vertical-align: middle;
